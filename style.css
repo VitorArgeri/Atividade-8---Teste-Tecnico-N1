@@ -17,13 +17,13 @@ main {
 
 .left {
     width: 50%;
-    height: 100vh;
-    background-color: #c4c4c4;
+    height: 120vh;
+    background-color: #C4C4C4;
 }
 
 .right {
     width: 50%;
-    height: 100vh;
+    height: 120vh;
     background-color: rgb(20, 20, 20);
 }
 
@@ -117,58 +117,57 @@ main {
 
 .divisor {
     background-color: black;
-    width: 0.1rem;
+    width: 1px;
     height: 80%;
     margin-right: 1.75rem;
 }
 
-.about-shoes {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.title-shoes {
+    position: absolute;
 }
 
-.shoes-information {
+.size-and-qty {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15rem;
-    position: relative;
+    gap: 30%;
+    margin-top: 5vh;
+}
 
+.color-and-price {
+    display: flex;
+    /* Mudar depois */
+    gap: 3.3%;
+    position: relative;
+    top: 1rem;
+}
+
+.color-img {
+    position: relative;
+    width: 2.5vw;
+    rotate: calc(90deg);
+    right: 2rem;
+    bottom: 1vh;
+}
+
+.color {
+    display: flex;
+}
+
+.qty-span {
+    background-color: white;
+    margin: 0.3rem;
+}
+
+.qty-separation {
+    position: relative;
+    left: 2.25rem;
+}
+
+.basic-span {
+    margin-left: 2rem;
 }
 
 .color-circle {
-    background: white;
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 100%;
-}   
-
-.size-and-color {
-    display: flex;
-    flex-direction: column;
-    line-height: 3rem;
-}
-
-.qty-and-price {
-    display: flex;
-    flex-direction: column;
-    line-height: 3rem;
-    position: relative;
-    bottom: 0.3rem;
-}
-
-.title-shoes {
-    font-size: 1.5rem;
-    color: rgb(0, 0, 0);
-    position: relative;
-    bottom: 0rem;
-}
-
-.qty-and-price span {
-    background-color: white;
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
+    margin-left: 1rem;
 }
 
 .total-price {
@@ -176,7 +175,7 @@ main {
     justify-content: center;
     position: relative;
     top: 0.5rem;
-    left: 8.6rem;
+    left: 10%;
 }
 
 .price-total {
@@ -185,4 +184,39 @@ main {
 
 .total-price {
     font-size: 2rem;
+}
+
+.img-button {
+    height: 2.5vw;
+    position: relative;
+    right: 2rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+.cancel-button, 
+.checkout-button {
+    border-radius: 3%;
+    width: 30%;
+    height: 8vh;
+    border: none;
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cancel-button {
+    background-color: #EC1B1B;
+}
+
+.checkout-button {
+    background-color: #3F9EF7;
 }
