@@ -159,6 +159,7 @@ main {
 .qty-span {
     background-color: white;
     margin: 0.3rem;
+    font-weight: bold;
 }
 
 .qty-separation {
