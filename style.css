@@ -357,8 +357,8 @@ main {
 
 .right-footer {
     display: flex;
-    gap: 15rem;
+    gap: 10rem;
     position: relative;
-    right: 5rem;
+    right: 2.3rem;
     top: 2rem;
 }
