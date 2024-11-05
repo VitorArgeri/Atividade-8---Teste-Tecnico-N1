@@ -134,7 +134,6 @@ main {
 
 .color-and-price {
     display: flex;
-    /* Mudar depois */
     gap: 3.3%;
     position: relative;
     top: 1rem;
@@ -192,7 +191,7 @@ main {
     right: 2rem;
 }
 
-footer {
+.footer-left {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -219,4 +218,61 @@ footer {
 
 .checkout-button {
     background-color: #3F9EF7;
+}
+
+.right-nav {
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    gap: 50%;
+}
+
+.nav-title {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.menu-title {
+    color: white;
+    font-weight: bold;
+}
+
+.menu-img {
+    height: 7vh;
+}
+
+.component-and-checkout {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 20%;
+    margin-top: 2rem;
+}
+
+.component-title {
+    color: rgb(89, 29, 132);
+    font-size: 1.25rem;
+}
+
+.checkout-title {
+    color: white;
+    font-size: 2.25rem;
+    margin-top: 1vh;
+}
+
+.checkout-divisor {
+    margin-top: 1vh;
+    height: 0.25vh;
+    width: 125%;
+    background-color: white;
 }
