@@ -151,6 +151,11 @@ main {
     display: flex;
 }
 
+.qty {
+    position: relative;
+    left: 4rem;
+}
+
 .qty-span {
     background-color: white;
     margin: 0.3rem;
@@ -175,6 +180,11 @@ main {
     position: relative;
     top: 0.5rem;
     left: 10%;
+}
+
+.price {
+    position: relative;
+    left: 4rem;
 }
 
 .price-total {
@@ -208,7 +218,7 @@ main {
     justify-content: center;
     align-items: center;
     display: flex;
-    font-size: 1rem;
+    font-size: 1.7rem;
     font-weight: bold;
 }
 
@@ -249,6 +259,29 @@ main {
     height: 7vh;
 }
 
+.diamond {
+    transform: rotate(45deg);
+}
+
+.first-pair {
+    display: flex;
+    margin-top: 0.1rem; 
+    gap: 0.1rem;
+}
+
+.second-pair {
+    display: flex;
+    margin-top: 0.05rem;
+    gap: 0.1rem;
+    position: relative;
+}
+
+.square {
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: rgb(89, 29, 132);
+}
+
 .component-and-checkout {
     justify-content: center;
     align-items: center;
@@ -257,6 +290,13 @@ main {
     position: relative;
     right: 20%;
     margin-top: 2rem;
+}
+
+.component {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 0.5rem;
 }
 
 .component-title {
@@ -286,11 +326,18 @@ main {
     flex-direction: column;
 }
 
+.card-img {
+    position: relative;
+    height: 27rem;
+}
+
 .three-methods {
     justify-content: center;
     align-items: center;
     display: flex;
     gap: 8%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .pay-with {
@@ -305,12 +352,13 @@ main {
 .payments-secured {
     color: white;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .right-footer {
     display: flex;
-        gap: 15rem;
+    gap: 15rem;
     position: relative;
     right: 3rem;
+    top: 2rem;
 }
